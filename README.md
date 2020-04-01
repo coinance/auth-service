@@ -19,9 +19,9 @@
 ### smart contract
 > Find the smart contract file in _contracts/idms.sol_
 
-smart contract accessible by five types of entities: 
-        - the IDMS owner, 
-        - account managers 
-        - attribute managers
-        - users 
-        - RPs
+- smart contract accessible by five types of entities: 
+    - the IDMS owner, 
+    - account managers 
+    - attribute managers
+    - users 
+    - RPs
