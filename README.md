@@ -1,10 +1,16 @@
-# phoenix
+# auth service
 
-## identity and access management system
+- identity and access management system
 - enable users to access multiple systems using a single login credential
 - establish a mechanism to uniquely identify each user and the associated tokens and credentials issued to that user
 
-### auth service
+### user flows
+- built using a few different tools:
+    - express.js - web framework in the Node.js
+    - express-session - session management library. This is what will allow us to create and store cookies that remember who a user is.
+    - pug - templating language that makes writing HTML a bit simpler.
+
+### authentication server
 
 - required to authenticate the user on behalf of the target applications/services
 - key areas of concern are security and privacy
