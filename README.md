@@ -1,6 +1,8 @@
 # phoenix
 
-## identity and access management system
+## web app
+
+### identity and access management system
 - enable users to access multiple systems using a single login credential
 - required to authenticate the user on behalf of the target applications/services
 - also establish a mechanism to uniquely identify each user and the associated tokens and credentials issued to that user
@@ -14,13 +16,14 @@
     - purchasing history or behaviour
 
 
-### web app
+### authentication server
+- consider using argon2 for password hashing later on
 
 ### smart contract
 > Find the smart contract file in _contracts/idms.sol_
 
 - smart contract accessible by five types of entities: 
-    - the IDMS owner, 
+    - the IDMS owner
     - account managers 
     - attribute managers
     - users 
