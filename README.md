@@ -1,8 +1,8 @@
 # phoenix
 
-## web app
+## identity and access management system
 
-### identity and access management system
+### auth service
 - enable users to access multiple systems using a single login credential
 - required to authenticate the user on behalf of the target applications/services
 - also establish a mechanism to uniquely identify each user and the associated tokens and credentials issued to that user
